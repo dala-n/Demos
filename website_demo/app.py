@@ -10,8 +10,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello World'
-    return render_template('index.html')
+    return render_template('index.html') 
+
+@app.route('/index_styled')
+def index_styled():
+    return render_template('index_styled.html') 
 
 @app.route('/home')
 def home():
