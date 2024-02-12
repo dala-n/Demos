@@ -9,13 +9,13 @@ body {
 }
 
 h1 {
-    color: #3498db;
+    color: #005eff;
 }
 
 img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    box-shadow: 0 0W 1000px rgba(0, 98, 28, 0.5);
 }
